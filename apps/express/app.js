@@ -28,7 +28,7 @@ app.configure('production', function(){
 
 // Routes
 
-app.get('/', function(req, res){
+app.get('/express', function(req, res){
   res.render('index', {
     title: 'Express'
   });
