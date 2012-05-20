@@ -44,7 +44,7 @@ app.get('/chat', function (req, res) {
 
 app.listen(process.env.PORT || 3000, function () {
   var addr = app.address();
-  console.log('   app listening on http://' + addr.address + ':' + addr.port);
+  //console.log('   app listening on http://' + addr.address + ':' + addr.port);
 });
 
 /**
