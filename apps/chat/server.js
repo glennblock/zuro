@@ -34,7 +34,7 @@ app.configure(function () {
  * App routes.
  */
 
-app.get('/chat', function (req, res) {
+app.get('/*', function (req, res) {
   res.render('index', { layout: false });
 });
 
